@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  date: 2011-07-03
+  actual_plan: MyText
+  report_plan: MyText
+
+two:
+  date: 2011-07-03
+  actual_plan: MyText
+  report_plan: MyText

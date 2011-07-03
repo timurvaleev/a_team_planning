@@ -1,6 +1,13 @@
 ATeamPlanning::Application.routes.draw do
   devise_for :users
 
+  scope '(users/:user_name)' do
+    resources :plans
+  end
+
+
+  root :to => "plans#index"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
