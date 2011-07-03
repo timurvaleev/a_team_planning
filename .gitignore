@@ -2,3 +2,6 @@
 db/*.sqlite3
 log/*.log
 tmp/
+.redcar
+vendor/cache
+vendor/ruby
